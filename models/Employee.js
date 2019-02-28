@@ -4,10 +4,10 @@ const Schema = mongoose.Schema;
 const employeeSchema = new Schema({
     created: { type: Date, default: Date.now },
     employee: {
-        id: { type: Number, required: true },
+        id: { type: String, required: true },
         firstname: { type: String, required: true },
         employeeType: { type: String, required: true },
-        id2: { type: Number, required: true },
+        id2: { type: String, required: true },
         lastname: { type: String, required: true }
     },
     location: { type: String, required: true }
