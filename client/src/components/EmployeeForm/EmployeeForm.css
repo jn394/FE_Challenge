@@ -1,0 +1,13 @@
+#employeeForm {
+    background-image: url('http://weebo.com.sg/wp-content/uploads/2018/06/Employee.jpg');
+    margin-bottom: 10px;
+    background-size: 125%;
+}
+
+.formDIV {
+    padding: 30px;
+}
+
+.form-control{
+    width: 45%;
+}

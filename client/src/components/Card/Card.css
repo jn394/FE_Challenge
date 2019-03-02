@@ -1,0 +1,17 @@
+.card {
+    margin: 10px;
+    width: 25%;
+    display: inline-block;
+}
+
+.card-header {
+    background-color: rgb(197, 181, 157);
+}
+
+#deleteBTN {
+    float: right;
+}
+
+#deleteBTN:hover {
+    cursor: pointer;
+}
