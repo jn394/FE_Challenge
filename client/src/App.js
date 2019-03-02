@@ -89,6 +89,7 @@ class App extends Component {
           submitBTN={this.submitBTN}
         />
         <div className='container'>
+        {console.log(this.state.list)}
           <EmployeesComp>
             <h2>Employee List:</h2>
             {this.state.list.map(employee => (
